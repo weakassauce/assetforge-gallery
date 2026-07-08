@@ -1,0 +1,972 @@
+[
+  {
+    "id": "a-human-face-8353",
+    "prompt": "a human face",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 32160,
+    "timestamp": "2026-07-04T04:36:57.551814+00:00",
+    "glb": "assets/a-human-face-8353/asset.glb",
+    "thumb": "thumbs/a-human-face-8353.png"
+  },
+  {
+    "id": "a-medivial-helmet-9af8",
+    "prompt": "a medivial helmet",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 72956,
+    "timestamp": "2026-07-04T04:35:16.348480+00:00",
+    "glb": "assets/a-medivial-helmet-9af8/asset.glb",
+    "thumb": "thumbs/a-medivial-helmet-9af8.png"
+  },
+  {
+    "id": "a-realistic-concrete-barrier-5813",
+    "prompt": "a realistic concrete barrier with metal rods sticking out",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 7114,
+    "timestamp": "2026-07-04T04:30:56.623343+00:00",
+    "glb": "assets/a-realistic-concrete-barrier-5813/asset.glb",
+    "thumb": "thumbs/a-realistic-concrete-barrier-5813.png"
+  },
+  {
+    "id": "ancient-dragon-skull-carved-b0a5",
+    "prompt": "ancient dragon skull carved from weathered dark stone, moss in the cracks",
+    "enhanced_prompt": "An ancient dragon skull carved from dark, weathered stone, featuring deep cracks filled with green moss, with prominent horns and a gaping maw.",
+    "quality": "high",
+    "poly_count": 112748,
+    "timestamp": "2026-07-08T20:28:25.614503+00:00",
+    "glb": "assets/ancient-dragon-skull-carved-b0a5/asset.glb",
+    "thumb": "thumbs/ancient-dragon-skull-carved-b0a5.png"
+  },
+  {
+    "id": "car-steering-wheel-with-6bd8",
+    "prompt": "car steering wheel with leather grip, three spokes, standalone",
+    "enhanced_prompt": "A black leather-wrapped car steering wheel with a smooth, matte finish, featuring three polished chrome spokes extending from a central hub, presented as a standalone object.",
+    "quality": "high",
+    "poly_count": 112791,
+    "timestamp": "2026-07-06T05:29:36.264381+00:00",
+    "glb": "assets/car-steering-wheel-with-6bd8/asset.glb",
+    "thumb": "thumbs/car-steering-wheel-with-6bd8.png"
+  },
+  {
+    "id": "car-wheel-black-tire-9ec1",
+    "prompt": "car wheel, black tire with silver five-spoke alloy rim, standing upright",
+    "enhanced_prompt": "A black rubber tire with a silver five-spoke alloy rim, standing upright, showing the tread pattern and the smooth, polished surface of the metal spokes.",
+    "quality": "high",
+    "poly_count": 111802,
+    "timestamp": "2026-07-06T05:26:50.957088+00:00",
+    "glb": "assets/car-wheel-black-tire-9ec1/asset.glb",
+    "thumb": "thumbs/car-wheel-black-tire-9ec1.png"
+  },
+  {
+    "id": "ceramic-teapot-with-hand-a4e3",
+    "prompt": "ceramic teapot with hand painted blue floral pattern",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 21630,
+    "timestamp": "2026-07-04T19:47:04.590848+00:00",
+    "glb": "assets/ceramic-teapot-with-hand-a4e3/asset.glb",
+    "thumb": "thumbs/ceramic-teapot-with-hand-a4e3.png"
+  },
+  {
+    "id": "cut-crystal-whiskey-decanter-72ce",
+    "prompt": "cut crystal whiskey decanter",
+    "enhanced_prompt": "A tall, slender cut crystal whiskey decanter with a faceted stopper, featuring precise geometric diamond and fan patterns etched across its smooth, clear glass body and base.",
+    "quality": "standard",
+    "poly_count": 82975,
+    "timestamp": "2026-07-06T03:56:52.681871+00:00",
+    "glb": "assets/cut-crystal-whiskey-decanter-72ce/asset.glb",
+    "thumb": "thumbs/cut-crystal-whiskey-decanter-72ce.png"
+  },
+  {
+    "id": "fire-hydrant-8346",
+    "prompt": "fire hydrant",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 20096,
+    "timestamp": "2026-07-04T04:29:25.021697+00:00",
+    "glb": "assets/fire-hydrant-8346/asset.glb",
+    "thumb": "thumbs/fire-hydrant-8346.png"
+  },
+  {
+    "id": "folded-red-wool-blanket-2ab7",
+    "prompt": "folded red wool blanket",
+    "enhanced_prompt": "A folded red wool blanket, showing a dense, uniform weave with a slightly fuzzy texture, its edges neatly finished and corners squared.",
+    "quality": "standard",
+    "poly_count": 149999,
+    "timestamp": "2026-07-08T16:48:14.466385+00:00",
+    "glb": "assets/folded-red-wool-blanket-2ab7/asset.glb",
+    "thumb": "thumbs/folded-red-wool-blanket-2ab7.png"
+  },
+  {
+    "id": "hatchet-with-forged-steel-917e",
+    "prompt": "hatchet with forged steel head",
+    "enhanced_prompt": "A hatchet with a forged steel head, featuring a dark, slightly pitted surface with visible hammer marks, attached to a dark wooden handle.",
+    "quality": "standard",
+    "poly_count": 10914,
+    "timestamp": "2026-07-05T16:26:01.257429+00:00",
+    "glb": "assets/hatchet-with-forged-steel-917e/asset.glb",
+    "thumb": "thumbs/hatchet-with-forged-steel-917e.png"
+  },
+  {
+    "id": "make-a-ancient-stone-bcbf",
+    "prompt": "make a Ancient Stone Gargoyle Statue",
+    "enhanced_prompt": "An ancient stone gargoyle statue, weathered and chipped, with rough-hewn features, leathery wings, and a hunched, grotesque posture, carved from dark, moss-speckled granite.",
+    "quality": "high",
+    "poly_count": 113166,
+    "timestamp": "2026-07-06T01:27:48.047798+00:00",
+    "glb": "assets/make-a-ancient-stone-bcbf/asset.glb",
+    "thumb": "thumbs/make-a-ancient-stone-bcbf.png"
+  },
+  {
+    "id": "make-a-bike-20fd",
+    "prompt": "make a bike",
+    "enhanced_prompt": "A bicycle with a matte black steel frame, silver handlebars and seat post, black tires with silver rims, and a black leather seat.",
+    "quality": "high",
+    "poly_count": 111996,
+    "timestamp": "2026-07-08T16:02:51.468060+00:00",
+    "glb": "assets/make-a-bike-20fd/asset.glb",
+    "thumb": "thumbs/make-a-bike-20fd.png"
+  },
+  {
+    "id": "make-a-boat-d281",
+    "prompt": "make a boat",
+    "enhanced_prompt": "A wooden rowboat, weathered and gray, with a pointed bow, a flat stern, and two oarlocks on each side.",
+    "quality": "high",
+    "poly_count": 109469,
+    "timestamp": "2026-07-08T20:02:05.663217+00:00",
+    "glb": "assets/make-a-boat-d281/asset.glb",
+    "thumb": "thumbs/make-a-boat-d281.png"
+  },
+  {
+    "id": "make-a-body-builder-c9de",
+    "prompt": "make a body builder",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 11188,
+    "timestamp": "2026-07-04T05:22:58.181950+00:00",
+    "glb": "assets/make-a-body-builder-c9de/asset.glb",
+    "thumb": "thumbs/make-a-body-builder-c9de.png"
+  },
+  {
+    "id": "make-a-building-980b",
+    "prompt": "make a building",
+    "enhanced_prompt": "A tall, rectangular skyscraper with a dark glass facade and sharp, clean edges, featuring a flat roof and numerous evenly spaced vertical windows.",
+    "quality": "high",
+    "poly_count": 61029,
+    "timestamp": "2026-07-08T20:13:26.961236+00:00",
+    "glb": "assets/make-a-building-980b/asset.glb",
+    "thumb": "thumbs/make-a-building-980b.png"
+  },
+  {
+    "id": "make-a-car-9c96",
+    "prompt": "make a car",
+    "enhanced_prompt": "A sleek, silver sports car with a low profile, aerodynamic curves, four wheels, and tinted windows.",
+    "quality": "high",
+    "poly_count": 58745,
+    "timestamp": "2026-07-08T04:53:14.342949+00:00",
+    "glb": "assets/make-a-car-9c96/asset.glb",
+    "thumb": "thumbs/make-a-car-9c96.png"
+  },
+  {
+    "id": "make-a-car-with-2c03",
+    "prompt": "make a car with NO WHEELS (EMPTY WHEEL WELLS",
+    "enhanced_prompt": "A red sports car with a sleek, aerodynamic body, a low profile, and visible empty wheel wells showing dark hollow openings where wheels would normally be.",
+    "quality": "high",
+    "poly_count": 65503,
+    "timestamp": "2026-07-08T19:24:37.919533+00:00",
+    "glb": "assets/make-a-car-with-2c03/asset.glb",
+    "thumb": "thumbs/make-a-car-with-2c03.png"
+  },
+  {
+    "id": "make-a-car-with-70ad",
+    "prompt": "make a car with NO WHEELS",
+    "enhanced_prompt": "A sleek, low-profile sports car with a vibrant crimson metallic paint finish, featuring a rounded aerodynamic body, tinted glass canopy, and exposed dark hollow openings where wheels would normally be.",
+    "quality": "high",
+    "poly_count": 54764,
+    "timestamp": "2026-07-08T19:20:35.306010+00:00",
+    "glb": "assets/make-a-car-with-70ad/asset.glb",
+    "thumb": "thumbs/make-a-car-with-70ad.png"
+  },
+  {
+    "id": "make-a-cowboy-on-2935",
+    "prompt": "make a cowboy on a horse",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 24834,
+    "timestamp": "2026-07-04T16:24:21.050363+00:00",
+    "glb": "assets/make-a-cowboy-on-2935/asset.glb",
+    "thumb": "thumbs/make-a-cowboy-on-2935.png"
+  },
+  {
+    "id": "make-a-cute-monster-07a8",
+    "prompt": "make a cute monster",
+    "enhanced_prompt": "A small, round, fuzzy monster with stubby limbs, large, expressive cartoon eyes, and a single, tiny horn.",
+    "quality": "high",
+    "poly_count": 53604,
+    "timestamp": "2026-07-04T21:39:31.734965+00:00",
+    "glb": "assets/make-a-cute-monster-07a8/asset.glb",
+    "thumb": "thumbs/make-a-cute-monster-07a8.png"
+  },
+  {
+    "id": "make-a-dinosaur-316f",
+    "prompt": "make a dinosaur",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 17258,
+    "timestamp": "2026-07-04T04:57:59.130589+00:00",
+    "glb": "assets/make-a-dinosaur-316f/asset.glb",
+    "thumb": "thumbs/make-a-dinosaur-316f.png"
+  },
+  {
+    "id": "make-a-dodgers-hat-d112",
+    "prompt": "make a dodgers hat",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 43485,
+    "timestamp": "2026-07-04T05:48:01.530604+00:00",
+    "glb": "assets/make-a-dodgers-hat-d112/asset.glb",
+    "thumb": "thumbs/make-a-dodgers-hat-d112.png"
+  },
+  {
+    "id": "make-a-drum-set-42e6",
+    "prompt": "make a drum set",
+    "enhanced_prompt": "A drum set featuring a bass drum, snare drum, two tom-toms, and a cymbal, all rendered in a glossy black finish with chrome hardware.",
+    "quality": "high",
+    "poly_count": 106491,
+    "timestamp": "2026-07-06T03:30:52.603693+00:00",
+    "glb": "assets/make-a-drum-set-42e6/asset.glb",
+    "thumb": "thumbs/make-a-drum-set-42e6.png"
+  },
+  {
+    "id": "make-a-fighter-jet-4f39",
+    "prompt": "make a fighter jet",
+    "enhanced_prompt": "A sleek, delta-wing fighter jet with swept-back wings, twin engine nacelles, a pointed nose cone, and a dark grey metallic finish, showing minor scuffs on the leading edges.",
+    "quality": "high",
+    "poly_count": 37510,
+    "timestamp": "2026-07-06T05:11:47.388150+00:00",
+    "glb": "assets/make-a-fighter-jet-4f39/asset.glb",
+    "thumb": "thumbs/make-a-fighter-jet-4f39.png"
+  },
+  {
+    "id": "make-a-fire-hydrant-7fe8",
+    "prompt": "make a fire hydrant",
+    "enhanced_prompt": "A red cast-iron fire hydrant, cylindrical body with two smaller hose outlets and one larger steamer outlet, a cap on each outlet, and a decorative bonnet on top.",
+    "quality": "high",
+    "poly_count": 26938,
+    "timestamp": "2026-07-04T21:26:05.779537+00:00",
+    "glb": "assets/make-a-fire-hydrant-7fe8/asset.glb",
+    "thumb": "thumbs/make-a-fire-hydrant-7fe8.png"
+  },
+  {
+    "id": "make-a-goblin-2d18",
+    "prompt": "make a goblin",
+    "enhanced_prompt": "A small, hunched goblin with green skin, pointed ears, a bulbous nose, sharp teeth, and tattered brown leather clothing.",
+    "quality": "high",
+    "poly_count": 58484,
+    "timestamp": "2026-07-05T20:41:49.458387+00:00",
+    "glb": "assets/make-a-goblin-2d18/asset.glb",
+    "thumb": "thumbs/make-a-goblin-2d18.png"
+  },
+  {
+    "id": "make-a-goblin-9f5e",
+    "prompt": "make a goblin",
+    "enhanced_prompt": "A squat, green-skinned goblin with pointed ears, a bulbous nose, and a mischievous grin, wearing tattered leather armor and holding a rusty dagger.",
+    "quality": "high",
+    "poly_count": 142248,
+    "timestamp": "2026-07-08T15:54:57.045338+00:00",
+    "glb": "assets/make-a-goblin-9f5e/asset.glb",
+    "thumb": "thumbs/make-a-goblin-9f5e.png"
+  },
+  {
+    "id": "make-a-goblin-eb27",
+    "prompt": "make a goblin",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 33518,
+    "timestamp": "2026-07-04T05:18:08.887656+00:00",
+    "glb": "assets/make-a-goblin-eb27/asset.glb",
+    "thumb": "thumbs/make-a-goblin-eb27.png"
+  },
+  {
+    "id": "make-a-grand-piano-f514",
+    "prompt": "make a grand piano",
+    "enhanced_prompt": "A grand piano, its polished black ebony wood body curved elegantly, with a closed lid revealing no strings or hammers, resting on three sturdy, tapered legs.",
+    "quality": "high",
+    "poly_count": 111983,
+    "timestamp": "2026-07-06T03:09:02.594744+00:00",
+    "glb": "assets/make-a-grand-piano-f514/asset.glb",
+    "thumb": "thumbs/make-a-grand-piano-f514.png"
+  },
+  {
+    "id": "make-a-hammer-eda8",
+    "prompt": "make a hammer",
+    "enhanced_prompt": "A claw hammer with a polished steel head, a worn wooden handle with a slight curve, and a black rubber grip.",
+    "quality": "high",
+    "poly_count": 4230,
+    "timestamp": "2026-07-04T21:31:41.962335+00:00",
+    "glb": "assets/make-a-hammer-eda8/asset.glb",
+    "thumb": "thumbs/make-a-hammer-eda8.png"
+  },
+  {
+    "id": "make-a-human-face-cc8e",
+    "prompt": "make a human face",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 32213,
+    "timestamp": "2026-07-04T05:34:47.333536+00:00",
+    "glb": "assets/make-a-human-face-cc8e/asset.glb",
+    "thumb": "thumbs/make-a-human-face-cc8e.png"
+  },
+  {
+    "id": "make-a-hyper-realistic-bf30",
+    "prompt": "make a hyper realistic pirate",
+    "enhanced_prompt": "A hyper realistic pirate figure, weathered and grizzled, with a tattered tricorne hat, a scarred face, a gold hoop earring, and a worn leather eyepatch.",
+    "quality": "high",
+    "poly_count": 112763,
+    "timestamp": "2026-07-05T20:49:40.123271+00:00",
+    "glb": "assets/make-a-hyper-realistic-bf30/asset.glb",
+    "thumb": "thumbs/make-a-hyper-realistic-bf30.png"
+  },
+  {
+    "id": "make-a-knight-amor-b01f",
+    "prompt": "make a knight amor full body",
+    "enhanced_prompt": "A full suit of polished steel plate knight's armor, comprising a cuirass, pauldrons, vambraces, gauntlets, cuisses, and sabatons, with a closed great helm.",
+    "quality": "high",
+    "poly_count": 112251,
+    "timestamp": "2026-07-08T16:51:31.981375+00:00",
+    "glb": "assets/make-a-knight-amor-b01f/asset.glb",
+    "thumb": "thumbs/make-a-knight-amor-b01f.png"
+  },
+  {
+    "id": "make-a-knight-armor-c315",
+    "prompt": "make a knight armor full body",
+    "enhanced_prompt": "A full suit of knight's plate armor, polished steel with ornate gold trim, featuring a visored helmet, pauldrons, gauntlets, and greaves, all meticulously crafted.",
+    "quality": "high",
+    "poly_count": 112345,
+    "timestamp": "2026-07-08T19:59:06.051355+00:00",
+    "glb": "assets/make-a-knight-armor-c315/asset.glb",
+    "thumb": "thumbs/make-a-knight-armor-c315.png"
+  },
+  {
+    "id": "make-a-knight-helmet-ffeb",
+    "prompt": "make a knight helmet",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 62036,
+    "timestamp": "2026-07-04T21:16:16.829988+00:00",
+    "glb": "assets/make-a-knight-helmet-ffeb/asset.glb",
+    "thumb": "thumbs/make-a-knight-helmet-ffeb.png"
+  },
+  {
+    "id": "make-a-knights-armor-6263",
+    "prompt": "make a knights armor full body",
+    "enhanced_prompt": "A full suit of medieval knight's plate armor, polished steel with articulated joints, a visored helmet, and gauntlets, showing minor scuffs and scratches from use.",
+    "quality": "high",
+    "poly_count": 113179,
+    "timestamp": "2026-07-08T05:59:07.337200+00:00",
+    "glb": "assets/make-a-knights-armor-6263/asset.glb",
+    "thumb": "thumbs/make-a-knights-armor-6263.png"
+  },
+  {
+    "id": "make-a-knights-armor-f46c",
+    "prompt": "make a knights armor full body",
+    "enhanced_prompt": "A full suit of medieval knight's plate armor, polished steel with a slightly aged patina, featuring a closed helm with a visor, articulated pauldrons, a breastplate, gauntlets, and greaves, all connected by visible leather straps and rivets.",
+    "quality": "high",
+    "poly_count": 112725,
+    "timestamp": "2026-07-08T05:50:44.146132+00:00",
+    "glb": "assets/make-a-knights-armor-f46c/asset.glb",
+    "thumb": "thumbs/make-a-knights-armor-f46c.png"
+  },
+  {
+    "id": "make-a-knights-full-1eff",
+    "prompt": "make a knights full body armor",
+    "enhanced_prompt": "A full suit of polished steel plate armor, comprising a helmet with a visored faceplate, a cuirass with pauldrons and vambraces, and greaves with sabatons, all articulated for movement.",
+    "quality": "high",
+    "poly_count": 113179,
+    "timestamp": "2026-07-05T21:04:49.789974+00:00",
+    "glb": "assets/make-a-knights-full-1eff/asset.glb",
+    "thumb": "thumbs/make-a-knights-full-1eff.png"
+  },
+  {
+    "id": "make-a-knights-full-6158",
+    "prompt": "Make A Knights Full Body Armor",
+    "enhanced_prompt": "A full suit of knight's plate armor, polished steel with broad pauldrons, a visored helm, and articulated gauntlets, showing minor scuffs and scratches from use.",
+    "quality": "high",
+    "poly_count": 112805,
+    "timestamp": "2026-07-08T19:47:17.535191+00:00",
+    "glb": "assets/make-a-knights-full-6158/asset.glb",
+    "thumb": "thumbs/make-a-knights-full-6158.png"
+  },
+  {
+    "id": "make-a-leather-couch-8b3b",
+    "prompt": "make a leather couch",
+    "enhanced_prompt": "A deep brown, tufted leather couch, its cushions slightly worn and creased, with brass nailhead trim along the rolled arms and base.",
+    "quality": "high",
+    "poly_count": 24404,
+    "timestamp": "2026-07-04T21:49:11.363589+00:00",
+    "glb": "assets/make-a-leather-couch-8b3b/asset.glb",
+    "thumb": "thumbs/make-a-leather-couch-8b3b.png"
+  },
+  {
+    "id": "make-a-mc-donalds-1925",
+    "prompt": "make a mc donalds billbord",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 28970,
+    "timestamp": "2026-07-04T05:50:32.303130+00:00",
+    "glb": "assets/make-a-mc-donalds-1925/asset.glb",
+    "thumb": "thumbs/make-a-mc-donalds-1925.png"
+  },
+  {
+    "id": "make-a-metal-goblin-3422",
+    "prompt": "make a metal goblin",
+    "enhanced_prompt": "A small, hunched goblin figure cast from dark, tarnished metal, with pointed ears, a long nose, and sharp teeth, wearing tattered metal scraps for clothing.",
+    "quality": "high",
+    "poly_count": 111462,
+    "timestamp": "2026-07-08T19:35:59.601375+00:00",
+    "glb": "assets/make-a-metal-goblin-3422/asset.glb",
+    "thumb": "thumbs/make-a-metal-goblin-3422.png"
+  },
+  {
+    "id": "make-a-michigan-state-a34b",
+    "prompt": "make a michigan state spartan",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 19494,
+    "timestamp": "2026-07-04T15:24:11.376823+00:00",
+    "glb": "assets/make-a-michigan-state-a34b/asset.glb",
+    "thumb": "thumbs/make-a-michigan-state-a34b.png"
+  },
+  {
+    "id": "make-a-motorcycle-40c0",
+    "prompt": "make a motorcycle",
+    "enhanced_prompt": "A classic motorcycle, predominantly black with chrome accents, featuring a rounded fuel tank, exposed engine, spoked wheels, and a single rider's seat.",
+    "quality": "high",
+    "poly_count": 113166,
+    "timestamp": "2026-07-06T01:31:50.377495+00:00",
+    "glb": "assets/make-a-motorcycle-40c0/asset.glb",
+    "thumb": "thumbs/make-a-motorcycle-40c0.png"
+  },
+  {
+    "id": "make-a-mutant-f2b3",
+    "prompt": "make a mutant",
+    "enhanced_prompt": "A grotesque, bipedal mutant creature with mottled green and grey leathery skin, sharp claws, and a single, bulbous eye on a stalk.",
+    "quality": "high",
+    "poly_count": 70725,
+    "timestamp": "2026-07-06T03:39:39.662378+00:00",
+    "glb": "assets/make-a-mutant-f2b3/asset.glb",
+    "thumb": "thumbs/make-a-mutant-f2b3.png"
+  },
+  {
+    "id": "make-a-pistol-0504",
+    "prompt": "make a pistol",
+    "enhanced_prompt": "A black, semi-automatic pistol with a matte finish, featuring a visible hammer, a serrated slide, and a standard magazine well.",
+    "quality": "high",
+    "poly_count": 41913,
+    "timestamp": "2026-07-06T02:11:07.902582+00:00",
+    "glb": "assets/make-a-pistol-0504/asset.glb",
+    "thumb": "thumbs/make-a-pistol-0504.png"
+  },
+  {
+    "id": "make-a-pistol-48de",
+    "prompt": "make a pistol",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 14058,
+    "timestamp": "2026-07-04T16:34:28.090060+00:00",
+    "glb": "assets/make-a-pistol-48de/asset.glb",
+    "thumb": "thumbs/make-a-pistol-48de.png"
+  },
+  {
+    "id": "make-a-rally-car-2e01",
+    "prompt": "make a rally car",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 24396,
+    "timestamp": "2026-07-04T05:51:29.753800+00:00",
+    "glb": "assets/make-a-rally-car-2e01/asset.glb",
+    "thumb": "thumbs/make-a-rally-car-2e01.png"
+  },
+  {
+    "id": "make-a-rally-car-d276",
+    "prompt": "make a rally car with logos and liveries",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 20648,
+    "timestamp": "2026-07-04T05:54:06.619181+00:00",
+    "glb": "assets/make-a-rally-car-d276/asset.glb",
+    "thumb": "thumbs/make-a-rally-car-d276.png"
+  },
+  {
+    "id": "make-a-rally-car-dd1d",
+    "prompt": "make a rally car",
+    "enhanced_prompt": "A low-profile, wide-body rally car with aggressive aerodynamic elements, painted bright red with white racing stripes and sponsor decals, featuring large off-road tires and a reinforced chassis.",
+    "quality": "high",
+    "poly_count": 104962,
+    "timestamp": "2026-07-06T02:45:49.798587+00:00",
+    "glb": "assets/make-a-rally-car-dd1d/asset.glb",
+    "thumb": "thumbs/make-a-rally-car-dd1d.png"
+  },
+  {
+    "id": "make-a-realistic-monkey-6eb7",
+    "prompt": "make a realistic monkey holding a gun",
+    "enhanced_prompt": "A chimpanzee with dark brown fur, a black face, and a slightly worn, realistic texture, gripping a matte black, semi-automatic pistol in its right hand.",
+    "quality": "high",
+    "poly_count": 150000,
+    "timestamp": "2026-07-06T02:20:33.308448+00:00",
+    "glb": "assets/make-a-realistic-monkey-6eb7/asset.glb",
+    "thumb": "thumbs/make-a-realistic-monkey-6eb7.png"
+  },
+  {
+    "id": "make-a-realistic-tree-bbeb",
+    "prompt": "make a realistic tree",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 100694,
+    "timestamp": "2026-07-04T06:02:16.442383+00:00",
+    "glb": "assets/make-a-realistic-tree-bbeb/asset.glb",
+    "thumb": "thumbs/make-a-realistic-tree-bbeb.png"
+  },
+  {
+    "id": "make-a-rusted-axe-3b2e",
+    "prompt": "make a rusted axe",
+    "enhanced_prompt": "A weathered, heavy steel axe head with a dark, pitted rust patina, showing signs of age and use, attached to a thick, splintered wooden handle.",
+    "quality": "high",
+    "poly_count": 14139,
+    "timestamp": "2026-07-05T17:03:15.806382+00:00",
+    "glb": "assets/make-a-rusted-axe-3b2e/asset.glb",
+    "thumb": "thumbs/make-a-rusted-axe-3b2e.png"
+  },
+  {
+    "id": "make-a-rusted-knife-54f3",
+    "prompt": "make a rusted knife",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 3014,
+    "timestamp": "2026-07-04T20:29:49.081758+00:00",
+    "glb": "assets/make-a-rusted-knife-54f3/asset.glb",
+    "thumb": "thumbs/make-a-rusted-knife-54f3.png"
+  },
+  {
+    "id": "make-a-treasure-chest-0562",
+    "prompt": "make a treasure chest",
+    "enhanced_prompt": "A weathered, dark oak treasure chest with iron bands, a heavy padlock, and a slightly bowed lid, showing signs of age and use.",
+    "quality": "high",
+    "poly_count": 142128,
+    "timestamp": "2026-07-06T01:37:46.550731+00:00",
+    "glb": "assets/make-a-treasure-chest-0562/asset.glb",
+    "thumb": "thumbs/make-a-treasure-chest-0562.png"
+  },
+  {
+    "id": "make-a-treasure-chest-b832",
+    "prompt": "make a treasure chest",
+    "enhanced_prompt": "A sturdy wooden treasure chest with iron bands and a heavy padlock, showing signs of age with scuffs and a dark, weathered patina.",
+    "quality": "high",
+    "poly_count": 149999,
+    "timestamp": "2026-07-08T19:30:08.824611+00:00",
+    "glb": "assets/make-a-treasure-chest-b832/asset.glb",
+    "thumb": "thumbs/make-a-treasure-chest-b832.png"
+  },
+  {
+    "id": "make-a-trumpet-d3d3",
+    "prompt": "make a trumpet",
+    "enhanced_prompt": "A brass trumpet with a bell that flares outward, three piston valves, and a curved leadpipe, exhibiting a polished, reflective surface with no visible wear.",
+    "quality": "high",
+    "poly_count": 113153,
+    "timestamp": "2026-07-06T03:28:00.676218+00:00",
+    "glb": "assets/make-a-trumpet-d3d3/asset.glb",
+    "thumb": "thumbs/make-a-trumpet-d3d3.png"
+  },
+  {
+    "id": "make-a-wooden-boat-27fd",
+    "prompt": "make a wooden boat",
+    "enhanced_prompt": "A small, weathered wooden rowboat with a rounded hull, a flat bottom, and two oarlocks, crafted from dark, aged planks showing faint grain and minor scuffs.",
+    "quality": "high",
+    "poly_count": 54839,
+    "timestamp": "2026-07-08T20:04:50.474013+00:00",
+    "glb": "assets/make-a-wooden-boat-27fd/asset.glb",
+    "thumb": "thumbs/make-a-wooden-boat-27fd.png"
+  },
+  {
+    "id": "make-a-worn-down-327b",
+    "prompt": "make a worn down and beat up treasure chest with metal corners",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 51958,
+    "timestamp": "2026-07-04T20:51:15.691004+00:00",
+    "glb": "assets/make-a-worn-down-327b/asset.glb",
+    "thumb": "thumbs/make-a-worn-down-327b.png"
+  },
+  {
+    "id": "make-a-zombie-2a18",
+    "prompt": "make a zombie",
+    "enhanced_prompt": "A gaunt, decaying humanoid figure with tattered clothing, exposed bone, and greenish-gray skin, its right arm hanging limp and its left hand reaching forward.",
+    "quality": "high",
+    "poly_count": 51754,
+    "timestamp": "2026-07-08T17:22:03.112149+00:00",
+    "glb": "assets/make-a-zombie-2a18/asset.glb",
+    "thumb": "thumbs/make-a-zombie-2a18.png"
+  },
+  {
+    "id": "make-a-zombie-6679",
+    "prompt": "make a zombie",
+    "enhanced_prompt": "A decaying humanoid figure with tattered grey skin, exposed bone, and ragged, dirty clothing, its mouth agape in a silent scream.",
+    "quality": "high",
+    "poly_count": 146846,
+    "timestamp": "2026-07-06T03:36:55.873964+00:00",
+    "glb": "assets/make-a-zombie-6679/asset.glb",
+    "thumb": "thumbs/make-a-zombie-6679.png"
+  },
+  {
+    "id": "make-motorcycle-d6f8",
+    "prompt": "make motorcycle",
+    "enhanced_prompt": "A classic motorcycle with a chrome-plated, teardrop-shaped fuel tank, a black leather seat, a large spoked front wheel, and a visible V-twin engine with exposed exhaust pipes.",
+    "quality": "high",
+    "poly_count": 112870,
+    "timestamp": "2026-07-08T16:17:52.868220+00:00",
+    "glb": "assets/make-motorcycle-d6f8/asset.glb",
+    "thumb": "thumbs/make-motorcycle-d6f8.png"
+  },
+  {
+    "id": "make-porshe-911-gt3-d656",
+    "prompt": "make porshe 911 gt3 rs",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 22462,
+    "timestamp": "2026-07-04T05:20:57.671709+00:00",
+    "glb": "assets/make-porshe-911-gt3-d656/asset.glb",
+    "thumb": "thumbs/make-porshe-911-gt3-d656.png"
+  },
+  {
+    "id": "make-the-maze-bank-e450",
+    "prompt": "make the maze bank in los angeles",
+    "enhanced_prompt": "A towering, cylindrical bank building with a distinctive, spiraling concrete facade resembling a maze, featuring numerous recessed windows and a wide, flat roof.",
+    "quality": "high",
+    "poly_count": 95475,
+    "timestamp": "2026-07-08T20:17:51.200929+00:00",
+    "glb": "assets/make-the-maze-bank-e450/asset.glb",
+    "thumb": "thumbs/make-the-maze-bank-e450.png"
+  },
+  {
+    "id": "marble-bust-of-a-fbb1",
+    "prompt": "marble bust of a greek philosopher",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 29858,
+    "timestamp": "2026-07-04T19:52:58.496206+00:00",
+    "glb": "assets/marble-bust-of-a-fbb1/asset.glb",
+    "thumb": "thumbs/marble-bust-of-a-fbb1.png"
+  },
+  {
+    "id": "modern-hybrid-bicycle-with-5d03",
+    "prompt": "modern hybrid bicycle with thin spokes",
+    "enhanced_prompt": "A modern hybrid bicycle with a sleek, angular frame, matte black aluminum alloy construction, thin silver spokes, black tires, and a minimalist saddle.",
+    "quality": "high",
+    "poly_count": 112957,
+    "timestamp": "2026-07-05T18:13:33.622443+00:00",
+    "glb": "assets/modern-hybrid-bicycle-with-5d03/asset.glb",
+    "thumb": "thumbs/modern-hybrid-bicycle-with-5d03.png"
+  },
+  {
+    "id": "modern-hybrid-bicycle-with-d32b",
+    "prompt": "modern hybrid bicycle with thin spokes",
+    "enhanced_prompt": "A modern hybrid bicycle, matte black frame, with thin silver spokes on both wheels, a comfortable black saddle, and black handlebars.",
+    "quality": "high",
+    "poly_count": 112730,
+    "timestamp": "2026-07-06T01:25:56.209196+00:00",
+    "glb": "assets/modern-hybrid-bicycle-with-d32b/asset.glb",
+    "thumb": "thumbs/modern-hybrid-bicycle-with-d32b.png"
+  },
+  {
+    "id": "orangutan-with-shaggy-orange-f33c",
+    "prompt": "orangutan with shaggy orange fur, sitting",
+    "enhanced_prompt": "An orangutan with dense, shaggy orange fur, in a seated position, with a rounded body and long arms resting on its knees.",
+    "quality": "standard",
+    "poly_count": 149998,
+    "timestamp": "2026-07-06T02:31:26.769929+00:00",
+    "glb": "assets/orangutan-with-shaggy-orange-f33c/asset.glb",
+    "thumb": "thumbs/orangutan-with-shaggy-orange-f33c.png"
+  },
+  {
+    "id": "ornate-brass-door-handle-51dc",
+    "prompt": "ornate brass door handle with intricate victorian engravings",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 15456,
+    "timestamp": "2026-07-04T19:43:27.588994+00:00",
+    "glb": "assets/ornate-brass-door-handle-51dc/asset.glb",
+    "thumb": "thumbs/ornate-brass-door-handle-51dc.png"
+  },
+  {
+    "id": "polished-silver-sports-car-fe73",
+    "prompt": "polished silver sports car",
+    "enhanced_prompt": "A sleek, low-profile sports car with a highly polished, mirror-like silver finish, featuring aggressive aerodynamic lines, large alloy wheels, and tinted windows.",
+    "quality": "high",
+    "poly_count": 113166,
+    "timestamp": "2026-07-08T16:44:20.495377+00:00",
+    "glb": "assets/polished-silver-sports-car-fe73/asset.glb",
+    "thumb": "thumbs/polished-silver-sports-car-fe73.png"
+  },
+  {
+    "id": "red-sports-car-body-9fee",
+    "prompt": "red sports car body shell, bare factory assembly-line body component resting on the ground, empty wheel arches revealing dark hollow openings, smooth sealed underbody",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 39055,
+    "timestamp": "2026-07-06T05:32:03.313372+00:00",
+    "glb": "assets/red-sports-car-body-9fee/asset.glb",
+    "thumb": "thumbs/red-sports-car-body-9fee.png"
+  },
+  {
+    "id": "rusty-medieval-battle-axe-32bd",
+    "prompt": "rusty medieval battle axe with wooden handle",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 3744,
+    "timestamp": "2026-07-04T19:49:31.055968+00:00",
+    "glb": "assets/rusty-medieval-battle-axe-32bd/asset.glb",
+    "thumb": "thumbs/rusty-medieval-battle-axe-32bd.png"
+  },
+  {
+    "id": "silver-sports-car-1ad6",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a wide stance, sharp body lines, and large alloy wheels, featuring tinted windows and a prominent rear spoiler.",
+    "quality": "standard",
+    "poly_count": 66870,
+    "timestamp": "2026-07-08T05:46:55.046826+00:00",
+    "glb": "assets/silver-sports-car-1ad6/asset.glb",
+    "thumb": "thumbs/silver-sports-car-1ad6.png"
+  },
+  {
+    "id": "silver-sports-car-2e4a",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aggressive aerodynamic lines, polished to a mirror finish.",
+    "quality": "standard",
+    "poly_count": 73297,
+    "timestamp": "2026-07-08T15:18:11.495962+00:00",
+    "glb": "assets/silver-sports-car-2e4a/asset.glb",
+    "thumb": "thumbs/silver-sports-car-2e4a.png"
+  },
+  {
+    "id": "silver-sports-car-382f",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aerodynamic curves, featuring tinted windows and polished chrome accents.",
+    "quality": "standard",
+    "poly_count": 67094,
+    "timestamp": "2026-07-08T15:39:22.123929+00:00",
+    "glb": "assets/silver-sports-car-382f/asset.glb",
+    "thumb": "thumbs/silver-sports-car-382f.png"
+  },
+  {
+    "id": "silver-sports-car-4924",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car, its body a polished metallic sheen, featuring aerodynamic curves, large alloy wheels, and tinted windows.",
+    "quality": "standard",
+    "poly_count": 66844,
+    "timestamp": "2026-07-08T16:08:19.868356+00:00",
+    "glb": "assets/silver-sports-car-4924/asset.glb",
+    "thumb": "thumbs/silver-sports-car-4924.png"
+  },
+  {
+    "id": "silver-sports-car-5c90",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a metallic finish, featuring a sculpted body, tinted windows, four alloy wheels, and dual exhaust pipes.",
+    "quality": "standard",
+    "poly_count": 63396,
+    "timestamp": "2026-07-08T14:00:46.426814+00:00",
+    "glb": "assets/silver-sports-car-5c90/asset.glb",
+    "thumb": "thumbs/silver-sports-car-5c90.png"
+  },
+  {
+    "id": "silver-sports-car-6a47",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car, its polished metallic surface reflecting light, with aerodynamic curves, large alloy wheels, and tinted windows.",
+    "quality": "standard",
+    "poly_count": 52886,
+    "timestamp": "2026-07-08T15:59:05.963618+00:00",
+    "glb": "assets/silver-sports-car-6a47/asset.glb",
+    "thumb": "thumbs/silver-sports-car-6a47.png"
+  },
+  {
+    "id": "silver-sports-car-73c4",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aerodynamic curves, featuring black tinted windows and polished chrome accents.",
+    "quality": "standard",
+    "poly_count": 61825,
+    "timestamp": "2026-07-08T06:14:28.515806+00:00",
+    "glb": "assets/silver-sports-car-73c4/asset.glb",
+    "thumb": "thumbs/silver-sports-car-73c4.png"
+  },
+  {
+    "id": "silver-sports-car-8f93",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car, its body a polished metallic finish with sharp, aerodynamic lines and large alloy wheels.",
+    "quality": "standard",
+    "poly_count": 68514,
+    "timestamp": "2026-07-08T05:13:10.737098+00:00",
+    "glb": "assets/silver-sports-car-8f93/asset.glb",
+    "thumb": "thumbs/silver-sports-car-8f93.png"
+  },
+  {
+    "id": "silver-sports-car-a513",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a polished metallic finish, aerodynamic curves, wide tires, and tinted windows.",
+    "quality": "standard",
+    "poly_count": 120738,
+    "timestamp": "2026-07-08T11:30:01.445981+00:00",
+    "glb": "assets/silver-sports-car-a513/asset.glb",
+    "thumb": "thumbs/silver-sports-car-a513.png"
+  },
+  {
+    "id": "silver-sports-car-a8c4",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aerodynamic curves, featuring tinted windows and black alloy wheels.",
+    "quality": "standard",
+    "poly_count": 70666,
+    "timestamp": "2026-07-08T06:04:04.982116+00:00",
+    "glb": "assets/silver-sports-car-a8c4/asset.glb",
+    "thumb": "thumbs/silver-sports-car-a8c4.png"
+  },
+  {
+    "id": "silver-sports-car-b6e8",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aerodynamic curves, featuring black accent trim and tinted windows.",
+    "quality": "standard",
+    "poly_count": 70939,
+    "timestamp": "2026-07-08T15:48:04.738769+00:00",
+    "glb": "assets/silver-sports-car-b6e8/asset.glb",
+    "thumb": "thumbs/silver-sports-car-b6e8.png"
+  },
+  {
+    "id": "silver-sports-car-b999",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, aggressive front grille, and aerodynamic curves, polished to a mirror finish.",
+    "quality": "standard",
+    "poly_count": 73560,
+    "timestamp": "2026-07-08T05:56:01.416335+00:00",
+    "glb": "assets/silver-sports-car-b999/asset.glb",
+    "thumb": "thumbs/silver-sports-car-b999.png"
+  },
+  {
+    "id": "silver-sports-car-d21a",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, wide stance, and aerodynamic curves, featuring tinted windows and polished alloy wheels.",
+    "quality": "standard",
+    "poly_count": 64912,
+    "timestamp": "2026-07-08T05:28:33.513048+00:00",
+    "glb": "assets/silver-sports-car-d21a/asset.glb",
+    "thumb": "thumbs/silver-sports-car-d21a.png"
+  },
+  {
+    "id": "silver-sports-car-eaa7",
+    "prompt": "silver sports car",
+    "enhanced_prompt": "A sleek, low-profile silver sports car with a long hood, swept-back windshield, and aggressive aerodynamic lines, featuring polished chrome accents and dark tinted windows.",
+    "quality": "standard",
+    "poly_count": 59540,
+    "timestamp": "2026-07-08T15:28:19.497272+00:00",
+    "glb": "assets/silver-sports-car-eaa7/asset.glb",
+    "thumb": "thumbs/silver-sports-car-eaa7.png"
+  },
+  {
+    "id": "steampunk-mechanical-owl-made-8c30",
+    "prompt": "steampunk mechanical owl made of brass and copper gears, glowing amber glass eyes",
+    "enhanced_prompt": "A steampunk mechanical owl crafted from interlocking brass and copper gears, featuring large, round amber glass eyes that emit a soft glow.",
+    "quality": "high",
+    "poly_count": 113087,
+    "timestamp": "2026-07-08T20:22:41.258645+00:00",
+    "glb": "assets/steampunk-mechanical-owl-made-8c30/asset.glb",
+    "thumb": "thumbs/steampunk-mechanical-owl-made-8c30.png"
+  },
+  {
+    "id": "steampunk-pocket-watch-with-f04f",
+    "prompt": "steampunk pocket watch with exposed brass gears",
+    "enhanced_prompt": "A steampunk pocket watch, round and brass-cased, with an open face revealing intricate, interlocking brass gears and visible winding mechanisms.",
+    "quality": "high",
+    "poly_count": 113074,
+    "timestamp": "2026-07-06T04:12:47.844208+00:00",
+    "glb": "assets/steampunk-pocket-watch-with-f04f/asset.glb",
+    "thumb": "thumbs/steampunk-pocket-watch-with-f04f.png"
+  },
+  {
+    "id": "streamlined-retro-futuristic-1950s-409c",
+    "prompt": "streamlined retro-futuristic 1950s ray gun with three sweeping rocket fins along the barrel, teardrop-shaped one-piece body, bright mirror-polished chrome, glowing red glass emitter orb at the muzzle tip, cherry-red bakelite handle",
+    "enhanced_prompt": "A streamlined retro-futuristic 1950s ray gun, teardrop-shaped one-piece body of bright mirror-polished chrome, three sweeping rocket fins along the barrel, a glowing red glass emitter orb at the muzzle tip, and a cherry-red bakelite handle.",
+    "quality": "high",
+    "poly_count": 113179,
+    "timestamp": "2026-07-08T21:21:26.293067+00:00",
+    "glb": "assets/streamlined-retro-futuristic-1950s-409c/asset.glb",
+    "thumb": "thumbs/streamlined-retro-futuristic-1950s-409c.png"
+  },
+  {
+    "id": "viking-shield-c3b3",
+    "prompt": "viking shield",
+    "enhanced_prompt": "A round, wooden Viking shield with a raised iron boss in the center, banded with iron and decorated with painted red and white geometric patterns, showing signs of battle wear.",
+    "quality": "standard",
+    "poly_count": 30304,
+    "timestamp": "2026-07-04T21:20:46.421278+00:00",
+    "glb": "assets/viking-shield-c3b3/asset.glb",
+    "thumb": "thumbs/viking-shield-c3b3.png"
+  },
+  {
+    "id": "vintage-leather-bound-book-ea13",
+    "prompt": "vintage leather-bound book with gold embossed cover",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 31118,
+    "timestamp": "2026-07-04T20:11:40.733658+00:00",
+    "glb": "assets/vintage-leather-bound-book-ea13/asset.glb",
+    "thumb": "thumbs/vintage-leather-bound-book-ea13.png"
+  },
+  {
+    "id": "weathered-bronze-dragon-statuette-98ca",
+    "prompt": "weathered bronze dragon statuette",
+    "enhanced_prompt": null,
+    "quality": "high",
+    "poly_count": 20641,
+    "timestamp": "2026-07-04T20:48:25.527372+00:00",
+    "glb": "assets/weathered-bronze-dragon-statuette-98ca/asset.glb",
+    "thumb": "thumbs/weathered-bronze-dragon-statuette-98ca.png"
+  },
+  {
+    "id": "white-ceramic-coffee-mug-d7f9",
+    "prompt": "white ceramic coffee mug with a curved handle",
+    "enhanced_prompt": null,
+    "quality": "standard",
+    "poly_count": 36628,
+    "timestamp": "2026-07-04T20:43:18.633862+00:00",
+    "glb": "assets/white-ceramic-coffee-mug-d7f9/asset.glb",
+    "thumb": "thumbs/white-ceramic-coffee-mug-d7f9.png"
+  },
+  {
+    "id": "worn-leather-journal-with-2e61",
+    "prompt": "worn leather journal with embossed cover and brass clasp",
+    "enhanced_prompt": "A worn, rectangular leather journal with a dark brown, embossed cover and a tarnished brass clasp, showing scuffs and creases from use.",
+    "quality": "standard",
+    "poly_count": 83462,
+    "timestamp": "2026-07-08T05:10:36.380192+00:00",
+    "glb": "assets/worn-leather-journal-with-2e61/asset.glb",
+    "thumb": "thumbs/worn-leather-journal-with-2e61.png"
+  },
+  {
+    "id": "worn-leather-journal-with-be6f",
+    "prompt": "worn leather journal with embossed cover and brass clasp",
+    "enhanced_prompt": "A worn leather journal with a dark brown, textured cover featuring an embossed floral pattern and a tarnished brass clasp, showing slight scuff marks and a soft patina.",
+    "quality": "standard",
+    "poly_count": 95246,
+    "timestamp": "2026-07-08T04:47:11.134743+00:00",
+    "glb": "assets/worn-leather-journal-with-be6f/asset.glb",
+    "thumb": "thumbs/worn-leather-journal-with-be6f.png"
+  },
+  {
+    "id": "yellow-excavator-with-articulated-832f",
+    "prompt": "yellow excavator with articulated arm",
+    "enhanced_prompt": "A toy excavator with a bright yellow body, a black articulated arm, and black treads, featuring a detailed cab and bucket.",
+    "quality": "high",
+    "poly_count": 106634,
+    "timestamp": "2026-07-06T05:09:35.281287+00:00",
+    "glb": "assets/yellow-excavator-with-articulated-832f/asset.glb",
+    "thumb": "thumbs/yellow-excavator-with-articulated-832f.png"
+  }
+]

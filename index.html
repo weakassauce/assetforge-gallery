@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AssetForge Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; background: #1a1a2e; color: #eee; font-family: -apple-system, 'Segoe UI', sans-serif; }
+        header { padding: 22px 24px 6px; }
+        h1 { font-size: 22px; margin: 0; }
+        h1 span { color: #7c6cff; }
+        .sub { color: #888; font-size: 13px; margin-top: 4px; }
+        #grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 14px; padding: 18px 24px 40px; }
+        .card { background: #16162a; border: 1px solid #2a2a44; border-radius: 12px; overflow: hidden; cursor: pointer; transition: transform 0.12s, border-color 0.12s; }
+        .card:hover { transform: translateY(-2px); border-color: #7c6cff; }
+        .card img { width: 100%; aspect-ratio: 1; object-fit: contain; background: #101020; display: block; }
+        .card .noimg { width: 100%; aspect-ratio: 1; display: flex; align-items: center; justify-content: center; color: #444; font-size: 40px; background: #101020; }
+        .card .info { padding: 10px 12px 12px; }
+        .card .title { font-weight: 600; font-size: 14px; color: #dcd6ff; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .card .stats { font-size: 11px; color: #666; margin-top: 3px; }
+        #overlay { position: fixed; inset: 0; background: rgba(10,10,20,0.96); display: none; z-index: 10; }
+        #overlay.open { display: block; }
+        #viewer { position: absolute; inset: 0; }
+        #viewer canvas { display: block; }
+        #close { position: absolute; top: 14px; left: 14px; z-index: 11; background: rgba(15,15,30,0.85); color: #ccc; border: 1px solid #2a2a44; border-radius: 8px; padding: 8px 16px; font-size: 14px; cursor: pointer; }
+        #close:hover { color: #fff; border-color: #7c6cff; }
+        #model-title { position: absolute; bottom: 18px; left: 50%; transform: translateX(-50%); color: #ddd; font-size: 15px; background: rgba(15,15,30,0.8); padding: 8px 18px; border-radius: 10px; z-index: 11; max-width: 90vw; text-align: center; }
+        #modes { position: absolute; top: 14px; right: 14px; display: flex; gap: 2px; background: rgba(15,15,30,0.85); border: 1px solid #2a2a44; border-radius: 8px; padding: 3px; z-index: 11; }
+        .mode-btn { background: transparent; color: #999; border: none; border-radius: 6px; padding: 6px 14px; font-size: 13px; cursor: pointer; }
+        .mode-btn:hover { color: #fff; background: #2a2a44; }
+        .mode-btn.active { background: #7c6cff; color: #fff; }
+        #dl { position: absolute; top: 60px; right: 14px; z-index: 11; background: rgba(15,15,30,0.85); color: #ccc; border: 1px solid #2a2a44; border-radius: 8px; padding: 7px 14px; font-size: 13px; cursor: pointer; text-decoration: none; }
+        #dl:hover { color: #fff; border-color: #7c6cff; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Asset<span>Forge</span> Gallery</h1>
+        <div class="sub">AI-generated 3D game assets — click any model to inspect it</div>
+    </header>
+    <div id="grid"></div>
+
+    <div id="overlay">
+        <div id="viewer"></div>
+        <button id="close">&larr; Gallery</button>
+        <div id="modes">
+            <button class="mode-btn active" data-mode="textured">Textured</button>
+            <button class="mode-btn" data-mode="clay">Clay</button>
+            <button class="mode-btn" data-mode="wireframe">Wireframe</button>
+        </div>
+        <div id="lightbox" style="position:absolute; top:104px; right:14px; z-index:11; background:rgba(15,15,30,0.85); border:1px solid #2a2a44; border-radius:8px; padding:7px 12px; display:flex; align-items:center; gap:8px; color:#999; font-size:12px;">&#9728; <input type="range" id="light-slider" min="0.3" max="3" step="0.05" style="width:110px; accent-color:#7c6cff;"></div>
+        <a id="dl" download>&#8681; Download STL</a>
+        <div id="model-title"></div>
+    </div>
+
+    <script type="importmap">
+    { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    } }
+    </script>
+    <script type="module">
+        import * as THREE from 'three';
+        import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+        import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+        import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
+        import { STLExporter } from 'three/addons/exporters/STLExporter.js';
+
+        const $ = id => document.getElementById(id);
+
+        function titleFor(a) {
+            const words = (a.prompt || a.id).split(/\s+/).slice(0, 8).join(' ');
+            return words.replace(/\b\w/g, c => c.toUpperCase());
+        }
+
+        // ---------- gallery grid ----------
+        const assets = await (await fetch('assets.json')).json();
+        const grid = $('grid');
+        assets
+            .sort((a, b) => (b.timestamp || '').localeCompare(a.timestamp || ''))
+            .forEach(a => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                const img = a.thumb
+                    ? `<img src="${a.thumb}" alt="" loading="lazy">`
+                    : `<div class="noimg">&#9723;</div>`;
+                const stats = [
+                    a.poly_count ? `${(a.poly_count / 1000).toFixed(0)}k tris` : null,
+                    a.quality === 'high' ? 'multi-view' : null,
+                ].filter(Boolean).join(' · ');
+                card.innerHTML = `${img}<div class="info"><div class="title">${titleFor(a)}</div><div class="stats">${stats}</div></div>`;
+                if (a.enhanced_prompt) card.title = '\u2728 ' + a.enhanced_prompt;
+                card.onclick = () => openViewer(a);
+                grid.appendChild(card);
+            });
+
+        // ---------- 3D viewer overlay ----------
+        const viewerEl = $('viewer');
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x14141f);
+        const camera = new THREE.PerspectiveCamera(45, 1, 0.01, 100);
+        const renderer = new THREE.WebGLRenderer({ antialias: true });
+        renderer.setPixelRatio(window.devicePixelRatio);
+        renderer.toneMapping = THREE.ACESFilmicToneMapping;
+        renderer.toneMappingExposure = 1.0;
+        viewerEl.appendChild(renderer.domElement);
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+
+        // Image-based lighting (Meshy-style): the environment feeds both the
+        // diffuse and SPECULAR terms, so metallic/roughness maps actually
+        // reflect light. One directional key keeps shading direction crisp.
+        {
+            const pmrem = new THREE.PMREMGenerator(renderer);
+            scene.environment = pmrem.fromScene(new RoomEnvironment(), 0.04).texture;
+            pmrem.dispose();
+        }
+        const key = new THREE.DirectionalLight(0xffffff, 1.4);
+        key.position.set(3, 5, 2);
+        scene.add(key);
+        // Lighting: user slider x per-model auto-exposure. After a model
+        // loads we meter its actual on-screen brightness and scale lighting
+        // so dark objects (black bike) and bright ones (white mug) both land
+        // at a healthy exposure.
+        const savedLum = parseFloat(localStorage.getItem('af_light') || '1.5');
+        let userLight = savedLum, autoBoost = 1.0;
+        function applyLighting() {
+            const v = userLight * autoBoost;
+            scene.environmentIntensity = v;
+            key.intensity = v * 0.95;
+        }
+        function setLighting(v) {
+            userLight = v;
+            localStorage.setItem('af_light', String(v));
+            applyLighting();
+        }
+        function autoExpose() {
+            autoBoost = 1.0;
+            applyLighting();
+            renderer.render(scene, camera);
+            const gl = renderer.getContext();
+            const s = 96, cx = Math.floor(gl.drawingBufferWidth / 2 - s / 2),
+                  cy = Math.floor(gl.drawingBufferHeight / 2 - s / 2);
+            const px = new Uint8Array(s * s * 4);
+            gl.readPixels(cx, cy, s, s, gl.RGBA, gl.UNSIGNED_BYTE, px);
+            let sum = 0, n = 0;
+            for (let i = 0; i < px.length; i += 4) {
+                const r = px[i], g = px[i + 1], b = px[i + 2];
+                if (Math.abs(r - 26) + Math.abs(g - 26) + Math.abs(b - 46) > 42) {
+                    sum += 0.2126 * r + 0.7152 * g + 0.0722 * b; n++;
+                }
+            }
+            if (n > 400) {
+                const mean = sum / n / 255;
+                autoBoost = Math.min(2.8, Math.max(0.55, 0.46 / Math.max(mean, 0.04)));
+            }
+            applyLighting();
+        }
+        applyLighting();
+        scene.add(new THREE.GridHelper(4, 20, 0x333350, 0x282840));
+
+        function resize() {
+            const w = viewerEl.clientWidth || 1, h = viewerEl.clientHeight || 1;
+            camera.aspect = w / h; camera.updateProjectionMatrix();
+            renderer.setSize(w, h);
+        }
+        window.addEventListener('resize', resize);
+
+        let mixer = null;
+        const animClock = new THREE.Clock();
+        let model = null, renderMode = 'textured';
+        const clayMat = new THREE.MeshStandardMaterial({ color: 0x9a9ab5, roughness: 0.85 });
+        const wireMat = new THREE.MeshStandardMaterial({ color: 0x7c6cff, roughness: 0.9, wireframe: true });
+        function applyMode() {
+            if (!model) return;
+            model.traverse(o => {
+                if (!o.isMesh) return;
+                if (!o.userData.orig) o.userData.orig = o.material;
+                o.material = renderMode === 'clay' ? clayMat : renderMode === 'wireframe' ? wireMat : o.userData.orig;
+            });
+        }
+        const lightSlider = document.getElementById('light-slider');
+        lightSlider.value = savedLum;
+        lightSlider.oninput = () => setLighting(parseFloat(lightSlider.value));
+        document.querySelectorAll('.mode-btn').forEach(btn => {
+            btn.onclick = () => {
+                renderMode = btn.dataset.mode;
+                document.querySelectorAll('.mode-btn').forEach(b => b.classList.toggle('active', b === btn));
+                applyMode();
+            };
+        });
+
+        const loader = new GLTFLoader();
+        function openViewer(a) {
+            $('overlay').classList.add('open');
+            $('model-title').textContent = titleFor(a);
+            $('dl').onclick = e => {
+                e.preventDefault();
+                if (!model) return;
+                // STL is unitless and slicers read it as mm: scale a clone so
+                // the largest dimension is 100 mm instead of a ~1 mm speck.
+                const clone = model.clone(true);
+                const bb = new THREE.Box3().setFromObject(clone);
+                const sz = bb.getSize(new THREE.Vector3());
+                clone.scale.multiplyScalar(100 / Math.max(sz.x, sz.y, sz.z));
+                clone.updateMatrixWorld(true);
+                const data = new STLExporter().parse(clone, { binary: true });
+                const url = URL.createObjectURL(new Blob([data], { type: 'model/stl' }));
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = `${a.id}.stl`;
+                link.click();
+                URL.revokeObjectURL(url);
+            };
+            resize();
+            loader.load(a.glb, gltf => {
+                if (model) scene.remove(model);
+                model = gltf.scene;
+                const box = new THREE.Box3().setFromObject(model);
+                const size = box.getSize(new THREE.Vector3());
+                const scale = 1.5 / Math.max(size.x, size.y, size.z);
+                model.scale.setScalar(scale);
+                box.setFromObject(model);
+                const center = box.getCenter(new THREE.Vector3());
+                model.position.sub(center);
+                model.position.y += (box.max.y - box.min.y) / 2;
+                applyMode();
+                scene.add(model);
+                mixer = null;
+                if (gltf.animations && gltf.animations.length) {
+                }
+                camera.position.set(1.6, 1.1, 1.6);
+                controls.target.set(0, 0.6, 0);
+                setTimeout(autoExpose, 60);
+            });
+        }
+        $('close').onclick = () => {
+            $('overlay').classList.remove('open');
+            if (model) { scene.remove(model); model = null; }
+        };
+
+        (function animate() {
+            requestAnimationFrame(animate);
+            controls.update();
+            if (mixer) mixer.update(animClock.getDelta());
+            renderer.render(scene, camera);
+        })();
+    </script>
+</body>
+</html>
